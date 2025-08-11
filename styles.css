@@ -399,23 +399,23 @@ body {
     }
     
     .container {
-        padding: 1.5rem;
-        padding-top: 2rem;
+        padding: 1rem;
+        padding-top: 1rem;
         justify-content: center;
     }
     
     .logo-placeholder {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
     
     .coming-soon-content {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
     
     .footer {
         max-width: 350px;
         font-size: 0.8rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 }
 
@@ -461,22 +461,22 @@ body {
     }
     
     .container {
-        padding: 1rem;
-        padding-top: 2rem;
+        padding: 0.8rem;
+        padding-top: 0.8rem;
         justify-content: center;
     }
     
     .logo-placeholder {
-        margin-bottom: 2.5rem;
+        margin-bottom: 1.5rem;
     }
     
     .coming-soon-content {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
     
     .footer {
         max-width: 300px;
         font-size: 0.75rem;
-        margin-top: 2rem;
+        margin-top: 0.8rem;
     }
 }
