@@ -85,6 +85,21 @@ html {
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .footer p {
+        margin: 0;
+    }
+    
+    .footer-second-line {
+        margin-top: 0;
+    }
 }
 
 ::-webkit-scrollbar-track {
@@ -286,6 +301,36 @@ body {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.footer-second-line {
+    margin-top: 0.5rem;
+}
+
+/* Desktop footer - single line */
+@media (min-width: 769px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    
+    .footer p {
+        margin: 0;
+        display: inline;
+    }
+    
+    .footer-second-line {
+        margin-top: 0;
+    }
 }
 
 /* Animations */
