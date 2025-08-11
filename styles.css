@@ -75,6 +75,18 @@ html {
     width: 12px;
 }
 
+/* Hide scrollbar for countdown timer on mobile */
+@media (max-width: 768px) {
+    .countdown-timer::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .countdown-timer {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
 ::-webkit-scrollbar-track {
     background: rgba(27, 26, 27, 0.8);
     border-radius: 6px;
@@ -324,14 +336,18 @@ body {
         gap: 1.5rem;
         padding: 1.5rem;
         margin-bottom: 2rem;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: center;
     }
     
     .countdown-item {
         min-width: 80px;
+        flex-shrink: 0;
     }
     
     .logo {
-        max-width: 180px;
+        max-width: 220px;
     }
     
     .container {
@@ -379,14 +395,18 @@ body {
         gap: 1rem;
         padding: 1rem;
         margin-bottom: 1.5rem;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: center;
     }
     
     .countdown-item {
         min-width: 70px;
+        flex-shrink: 0;
     }
     
     .logo {
-        max-width: 160px;
+        max-width: 200px;
     }
     
     .container {
